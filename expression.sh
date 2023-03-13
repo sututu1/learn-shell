@@ -27,7 +27,7 @@ fi
 if [ $a != $b ]
 then
    echo "a 不等于 b"
-fi
+
 
 if [ 1 != 2 ]
 then

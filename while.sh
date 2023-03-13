@@ -8,7 +8,7 @@ do
    do 
        k=`expr $j \* $i`
        # echo $j\*$i=$k
-      row="$row $j\*$i=$k"
+      row="$row $j*$i=$k"
       let "j++"
       done
       echo $row
